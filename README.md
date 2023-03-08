@@ -1,17 +1,8 @@
-# AutoApiS-超级版
+# AAST
 
-AutoApi系列：AutoApi、AutoApiSecret、AutoApiSR、AutoApiS
+核心是paran/黑幕大佬的py脚本。
+原型是wangziyingwen/酷安id-卷腿毛菌的项目
 
-# 置顶 #
-* 本项目是建立在[原教程](https://blog.432100.xyz/index.php/archives/50/)可以正确调用api的**假设**上的，核心是paran/黑幕大佬的py脚本。
-* 本项目只是提供一个自动、免费、无需额外设备的脚本运行方式，换句话说，**就是一台机子**。（因为原教程需要服务器/超长时间运转的设备，大部分人都不具备，本项目应运而生）
-* 请务必先阅读理解[原教程](https://blog.432100.xyz/index.php/archives/50/)的**原理说明、设计理念**。
-* 搬运[原教程](https://blog.432100.xyz/index.php/archives/50/)说法：**不保证一定能续期！不保证一定能续期！不保证一定能续期**！或者说，**只是增大续订可能性**。(据我了解，E5续订一般在最后20天左右发通知)
-* 若理解并接受上述说明，请接着操作；**若否，请点击浏览器右上角 X 。**
-
-### 项目说明 ###
-* 全自定义版本
-* 支持多账号、随机时间调用、api随机排序等
 
 ### 特别说明/Thanks ###
 * 原教程博主-黑幕（酷安id-Paran）：https://blog.432100.xyz/index.php/archives/50/
@@ -26,30 +17,15 @@ AutoApi系列：AutoApi、AutoApiSecret、AutoApiSR、AutoApiS
    * B站：https://www.bilibili.com/video/av95688306/
            
 
-### 区别 ###
-   项目用的是公共仓库（开放代码），所有人都能看到你的代码内容。
-
-   所以你的应用id、机密、令牌都会显示出来，不安全。
-
-   加密版，我把应用id、机密都隐藏了，令牌因为需要实时更新，隐藏不了（我不会！），安全性会高很多！
-   
-   模仿人为应用开发版，顾名思义。
-   
-   超级版，集各种功能于一身，自定义、多账号。
-   
---------------------------------------------------------------
 
 ### 步骤 ###
-* 第一步，先大致浏览[原教程](https://blog.432100.xyz/index.php/archives/50/)，了解如何获取应用id、机密、refresh_token 3样东西，以方便接下来的操作。
+* 第一步，获取应用id、机密、refresh_token 
 
-* 第二步，登陆/新建github账号，回到本项目页面，点击右上角fork本项目的代码到你自己的账号，然后你账号下会出现一个一模一样的项目，接下来的操作均在你的这个项目下进行。
+* 第二步，建项目、设置action
+  
 
-  ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/fork.png)
   
-* 根据[原教程](https://blog.432100.xyz/index.php/archives/50/)获取应用id、机密、refresh_token（自己复制保存，注意区分id机密，千万别弄混了）
-  
-  **注意**
-  **赋予api权限的时候，选择以下几个**
+    **赋予api权限的时候，选择以下几个**
   
                 Calendars.ReadWrite、Contacts.ReadWrite、Directory.ReadWrite.All、
                 
@@ -171,16 +147,6 @@ AutoApi系列：AutoApi、AutoApiSecret、AutoApiSR、AutoApiS
 
 （我们这里用的公共仓库，按理，你们可以设定无限循环调用，然后6小时启动一次，保证24小时全天候调用）
 
-### 最后 ###
-  教程很直白了，应该都会弄吧！
-  
-  代码小白，多包涵！有问题/修改建议可以点击上方issues发布一下，或者PY给我:
-  wz.lxh@outlook.com
-  
-  建了个Q群：657581700，不过没人
-  
-  最后的最后，再次感谢黑幕/paran大佬
-  
-  ————wangziyingwen/酷安id-卷腿毛菌
+参照感谢黑幕/paran大佬&wangziyingwen/酷安id-卷腿毛菌
 
 
