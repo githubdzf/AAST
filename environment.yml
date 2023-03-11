@@ -1,6 +1,0 @@
-# example1
-
-name: stats
-dependencies:
-  - numpy
-  - pandas
