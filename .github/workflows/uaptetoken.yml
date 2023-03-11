@@ -15,15 +15,11 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+    if: github.event.repository.owner.id == github.event.sender.id # 自己点的 start
     steps:
     - name: Checkout
       uses: actions/checkout@master
-    - name: Set up Python #安装python
-      uses: actions/setup-python@v1
-      with:
-        python-version: 3.10.10
-    - name: Install requests #安装requests
+    - name: Install requests and nacl #安装requests和nacl模块
       run: |
         pip install requests
     - name: Read config from secrets  #读取机密
