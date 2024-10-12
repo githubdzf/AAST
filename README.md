@@ -5,12 +5,6 @@
 
 
 ### 特别说明/Thanks ###
-* 原教程博主-黑幕（酷安id-Paran）：https://blog.432100.xyz/index.php/archives/50/
-* 普通版地址：https://github.com/wangziyingwen/AutoApi
-* 加密版地址：https://github.com/wangziyingwen/AutoApiSecret
-* 模仿人为应用开发版（包含升级步骤）：https://github.com/wangziyingwen/AutoApiSR
-* 超级版地址: https://github.com/wangziyingwen/AutoApiS
-* 更新日志：https://github.com/wangziyingwen/Autoapi-test
 * 网页获取refresh_token小工具（不建议使用）：https://github.com/wangziyingwen/GetAutoApiToken
 * 视频教程：（我操作很慢，自行倍速/快进,Secret版的教程，将就看吧）
    * 在线/下载地址：https://kino-onemanager.herokuapp.com/Video/AutoApi%E6%95%99%E7%A8%8B.mp4?preview
@@ -42,7 +36,8 @@
   
    > refresh_token位置如图下。复制refresh_token紧接着的双引号里的内容（红竖线框起来的），不要把双引号复制进去。复制进txt后，留意结尾不要留空格或者空行
      
-   ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/token地方.png)
+  
+   
   
   再然后把你项目token文件夹里的文件全删掉（记得点commint确认删除），再把你的0.txt...n.txt上传到token文件夹下。
 
@@ -62,11 +57,13 @@
   ```shell
   secret_list = [r'账号0应用机密',r'账号n应用机密']
   ```
-  ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/机密.png)
+
+  
   
   最终格式应该是类似这样的：
   
-  ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/格式.png)
+ 
+  
   
 * 第四步，修改参数配置
   
@@ -102,20 +99,20 @@
   
 * 第五步，进入你的个人设置页面(右上角头像 Settings，不是仓库里的 Settings)，选择 Developer settings > Personal access tokens > Generate new token,
 
-  ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/Settings.png)
-  ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/token.png)
+
+  
 
   设置名字为GITHUB_TOKEN , 然后勾选 repo , admin:repo_hook , workflow 等选项，最后点击Generate token即可。
   
-  ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/repo.png)
-  ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/adminrepo.png)
-  ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/workflow.png)
+
+  
   
 * 第五步，点击右上角星星/star立马调用一次，再点击上面的Action就能看到每次的运行日志，看看运行状况
 
 （必需点进去Test Api看下，api有没有调用到位，有没有出错。外面的Auto Api打勾只能说明运行是正常的，我们还需要确认10个api调用成功了，就像图里的一样。如果少了几个api，要么是注册应用的时候赋予api权限没弄好；要么是没登录激活onedrive，登录激活一下）
 
-  ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/日志.png)
+
+  
 
 * 第六步，没出错的话，就搞定啦！！再看看下面的定时次数要不要修改，不打算改就不用管了。
 
@@ -123,7 +120,8 @@
 
   * 定时自动启动修改地方：（在.github/workflow/autoapi.yml文件里，自行百度cron定时任务格式，最短每5分钟一次）
    
-  ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/定时.png)
+
+  
   
 ------------------------------------------------------------
 ### 题外话 ###
