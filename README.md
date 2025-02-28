@@ -5,7 +5,9 @@
 
 
 ### 特别说明/Thanks ###
-* 网页获取refresh_token小工具（不建议使用）：https://github.com/wangziyingwen/GetAutoApiToken
+* refresh_token：下载rclone，文件夹内CMD
+* # 示例
+rclone authorize "onedrive" "f82c748c-a719-4a85-a84a-7bd23a6b5711" "CxA~M-kL9_05lbT~5xWRDO-Y4Oc.y8b.MS"（不建议使用）：https://github.com/wangziyingwen/GetAutoApiToken
 * 视频教程：（我操作很慢，自行倍速/快进,Secret版的教程，将就看吧）
    * 在线/下载地址：https://kino-onemanager.herokuapp.com/Video/AutoApi%E6%95%99%E7%A8%8B.mp4?preview
    * B站：https://www.bilibili.com/video/av95688306/
